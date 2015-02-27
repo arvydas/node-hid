@@ -15,10 +15,10 @@
     "url": "git://github.com/hanshuebner/node-hid.git"
   },
   "scripts": {
-    "preupdate": "sh get-hidapi.sh",
-    "preinstall": "sh get-hidapi.sh",
-    "install": "sh install.sh",
-    "install-nw": "sh install-nw.sh"
+    "preupdate": "get-hidapi",
+    "preinstall": "get-hidapi",
+    "install": "install",
+    "install-nw": "install-nw"
   },
   "main": "./index.js",
   "engines": {
