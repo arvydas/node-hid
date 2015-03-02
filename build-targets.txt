@@ -1,6 +1,10 @@
 # This project will be build for the following architecture and node version
 # combinations. The resulting ".node" files are each stored in a separate
 # sub-folders of the "bin" folder.
+ia32 v0.8.9
+x64  v0.8.9
+ia32 v0.9.9
+x64  v0.9.9
 ia32 v0.10.36
 x64  v0.10.36
 ia32 v0.11.16

@@ -4,7 +4,6 @@ var versions = require("fs").readdirSync(__dirname + "\\" + process.arch);
 if (!versions.some(function (version) {
   try {
     module.exports = require("./" + process.arch + "/" + version + "/HID.node");
-    console.log(version);
     return true;
   } catch (e) {
     return false;
