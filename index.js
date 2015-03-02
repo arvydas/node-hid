@@ -2,7 +2,7 @@ var EventEmitter = require("events").EventEmitter,
 	util = require("util");
 
 //Load C++ binding
-var binding = require("./build/Release/HID.node");
+var binding = require("./addon");
 
 //This class is a wrapper for `binding.HID` class
 function HID() {
