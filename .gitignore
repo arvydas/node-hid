@@ -2,9 +2,5 @@
 hidapi
 build
 node_modules
-addon/ia32/0.10/HID.node
-addon/ia32/0.11/HID.node
-addon/x64/0.10/HID.node
-addon/ia32/0.12/HID.node
-addon/x64/0.11/HID.node
-addon/x64/0.12/HID.node
+addon/ia32/
+addon/x64/
