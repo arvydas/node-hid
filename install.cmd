@@ -1,13 +1,4 @@
 @ECHO OFF
-:: CLEANUP
-
-FOR /D %%I IN ("addon") DO (
-  RMDIR "addon\%%~I" /S /Q
-  IF ERRORLEVEL 1 (
-    ECHO Cannot delete "addon\%%~I" folder.
-    EXIT /B %ERRORLEVEL%
-  )
-)
 :: Walk through build-targets.txt and build each target
 FOR /F "eol=# tokens=1,2" %%I in (build-targets.txt) DO (
   FOR /F "delims=v. tokens=1,2" %%K IN ("%%J") DO (
