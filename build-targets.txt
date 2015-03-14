@@ -1,0 +1,15 @@
+# This project will be build for the following architecture and node version
+# combinations. The resulting ".node" files are each stored in a separate
+# sub-folders of the "bin" folder.
+ia32 v0.8.9
+x64  v0.8.9
+# v0.9.9 and v0.9.8 fail to build, so 0.9.7 it is...
+ia32 v0.9.7
+x64  v0.9.7
+ia32 v0.10.36
+x64  v0.10.36
+ia32 v0.11.16
+x64  v0.11.16
+# the 0.11 versions load fine on 0.12
+# ia32 v0.12.0
+# x64  v0.12.0

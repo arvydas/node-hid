@@ -2,3 +2,5 @@
 hidapi
 build
 node_modules
+addon/ia32/
+addon/x64/
